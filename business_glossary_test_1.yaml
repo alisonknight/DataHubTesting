@@ -3,7 +3,6 @@ source: DataHub
 owners:
   users:
     - alison.knight@prominenceadvisors.com
-url: "https://github.com/datahub-project/datahub/"
 nodes:
   - name: TestNode
     description: A set of terms related to TestNode

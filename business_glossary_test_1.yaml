@@ -1,0 +1,15 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - alison.knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: TestNode
+    description: A set of terms related to TestNode
+    knowledge_links:
+      - label: Wiki link for classification
+        url: "https://en.wikipedia.org/wiki/Classification"
+    terms:
+      - name: CastRoom
+        description: East Wing Room 4

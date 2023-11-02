@@ -37,12 +37,18 @@ nodes:
           users:
             - Alison.Knight@prominenceadvisors.com
         domain: ImagingServices
+  - name: Emergency Department
+    description: A set of terms related to ED
+    terms:     
       - name: ArrivedInER
         description: Arrived in Emergency Room
         owners:
           users:
             - Alison.Knight@prominenceadvisors.com
-        domain: ER
+        domain: Emergency Department
+  - name: Ambulatory
+    description: A set of terms related to Ambulatory
+    terms:         
       - name: ArrivedForAppt
         description: Arrived for ambulatory appointment
         owners:

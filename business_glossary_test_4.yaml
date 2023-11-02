@@ -16,7 +16,7 @@ nodes:
         contains:
           - TestNode.BrokenArm
         custom_properties:
-          custom_property_name: true
+          alias: Another name
       - name: BrokenArm
         description: The arm is broken
         owners:

@@ -1,0 +1,10 @@
+version: 1
+source: DataHub
+owners:
+nodes:
+  - name: TestNode
+    description: A set of terms related to TestNode
+    owners:
+    terms:
+      - name: CastRoom
+        description: East Wing Room 4

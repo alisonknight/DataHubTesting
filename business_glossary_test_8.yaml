@@ -1,0 +1,75 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - Alison.Knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: TestNode
+    description: A set of terms related to TestNode
+    knowledge_links:
+      - label: Wiki link for classification
+        url: "https://en.wikipedia.org/wiki/Classification"
+    terms:
+      - name: CastRoom
+        description: This is a new description for Test 8
+        contains:
+          - TestNode.BrokenArm
+          - TestNode.BrokenLeg
+          - TestNode.BrokenHand
+        custom_properties:
+          custom_property_name: true
+      - name: BrokenArm
+        description: The arm is broken
+        owners:
+          users:
+            - Test8UserName
+        domain: ImagingServices
+      - name: BrokenLeg
+        description: The leg is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+            - Test8UserName
+        domain: ImagingServices
+      - name: BrokenHand
+        description: The hand is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+            - Test8UserName
+        domain: ImagingServices
+  - name: TestNode2
+    description: A set of terms related to TestNode2
+    knowledge_links:
+      - label: Test 8 Test Node 2
+        url: "https://en.wikipedia.org/wiki/Classification"
+    terms:
+      - name: ArrivedInER
+        description: Arrived in Emergency Room
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+            - Test8UserName
+        domain: ER
+      - name: ArrivedForAppt
+        description: Arrived for ArrivedForAppt appointment
+        custom_properties:
+          another_custom_property: Test8
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+            - Test8UserName
+        domain: ER
+      - name: EDEncounter
+        description: Any ED Encounter
+        contains:
+          - TestNode2.ArrivedInER
+          - TestNode2.ArrivedForAppt
+        custom_properties:
+          Emergency: true
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+        domain: ER
+      

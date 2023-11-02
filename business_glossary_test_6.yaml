@@ -1,0 +1,51 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - Alison.Knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: TestNode
+    description: A set of terms related to TestNode
+    knowledge_links:
+      - label: Wiki link for classification
+        url: "https://en.wikipedia.org/wiki/Classification"
+    terms:
+      - name: CastRoom
+        description: East Wing Room 4
+        contains:
+          - TestNode.BrokenArm
+          - TestNode.BrokenLeg
+          - TestNode.BrokenHand
+        custom_properties:
+          custom_property_name: true
+      - name: BrokenArm
+        description: The arm is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+        domain: ImagingServices
+      - name: BrokenLeg
+        description: The leg is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+        domain: ImagingServices
+      - name: BrokenHand
+        description: The hand is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+        domain: ImagingServices
+      - name: ArrivedInER
+        description: Arrived in Emergency Room
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+        domain: ER
+      - name: ArrivedForAppt
+        description: Arrived for ambulatory appointment
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+        domain: Ambulatory

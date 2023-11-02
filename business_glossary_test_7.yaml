@@ -1,0 +1,17 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - Alison.Knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: TestNode
+    description: A set of terms related to TestNode
+    knowledge_links:
+      - label: Wiki link for classification
+        url: "https://en.wikipedia.org/wiki/Classification"
+    terms:
+      - name: CastRoom
+        description: West Wing Room 44
+        custom_properties:
+          custom_property_name: true

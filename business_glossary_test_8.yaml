@@ -19,28 +19,29 @@ nodes:
           - TestNode.BrokenHand
         custom_properties:
           custom_property_name: true
+          alias: OrthoCastRoom
       - name: BrokenArm
         description: The arm is broken
         owners:
           users:
-            - Test8UserName
+            - josh.king@prominenceadvisors.com
         domain: ImagingServices
       - name: BrokenLeg
         description: The leg is broken
         owners:
           users:
             - Alison.Knight@prominenceadvisors.com
-            - Test8UserName
+            - josh.king@prominenceadvisors.com
         domain: ImagingServices
       - name: BrokenHand
         description: The hand is broken
         owners:
           users:
             - Alison.Knight@prominenceadvisors.com
-            - Test8UserName
+            - josh.king@prominenceadvisors.com
         domain: ImagingServices
-  - name: TestNode2
-    description: A set of terms related to TestNode2
+  - name: Emergency Department
+    description: A set of terms related to Emergency Department
     knowledge_links:
       - label: Test 8 Test Node 2
         url: "https://en.wikipedia.org/wiki/Classification"
@@ -50,26 +51,26 @@ nodes:
         owners:
           users:
             - Alison.Knight@prominenceadvisors.com
-            - Test8UserName
-        domain: ER
+            - josh.king@prominenceadvisors.com
+        domain: Emergency Department
       - name: ArrivedForAppt
         description: Arrived for ArrivedForAppt appointment
         custom_properties:
-          another_custom_property: Test8
+          alias: arrival time
         owners:
           users:
             - Alison.Knight@prominenceadvisors.com
-            - Test8UserName
-        domain: ER
+            - josh.king@prominenceadvisors.com
+        domain: Ambulatory
       - name: EDEncounter
         description: Any ED Encounter
         contains:
-          - TestNode2.ArrivedInER
-          - TestNode2.ArrivedForAppt
+          - Emergency Department.ArrivedInER
+          - Ambulatory.ArrivedForAppt
         custom_properties:
-          Emergency: true
+          alias: encounter
         owners:
           users:
             - Alison.Knight@prominenceadvisors.com
-        domain: ER
+        domain: Emergency Department
       

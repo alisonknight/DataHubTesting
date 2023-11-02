@@ -13,5 +13,9 @@ nodes:
     terms:
       - name: CastRoom
         description: West Wing Room 44
+        owners:
+          users: 
+          - josh.king@prominenceadvisors.com
         custom_properties:
           custom_property_name: true
+          alias: OrthoCastRoom

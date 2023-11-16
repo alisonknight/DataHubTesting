@@ -8,8 +8,8 @@ nodes:
   - name: Pharmacy
     description: A set of terms related to Pharmacy
     terms:
-      - name: RX ID
-        description: This is an ID for all **prescriptions**
+      - name: RXID
+        description: This is an ID for all prescriptions
         
     
 

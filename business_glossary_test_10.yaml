@@ -1,0 +1,54 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - Alison.Knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: TestNode
+    description: A set of terms related to TestNode
+    terms:
+      - name: CastRoom
+        description: This is a new description for Test 8
+        contains:
+          - TestNode.BrokenArm
+          - TestNode.BrokenLeg
+          - TestNode.BrokenHand
+        custom_properties:
+          EpicID: 55555
+          alias: OrthoRoom
+          Type: Term
+      - name: BrokenArm
+        description: The arm is broken
+        owners:
+          users:
+            - josh.king@prominenceadvisors.com
+        custom_properties:
+          EpicID: 77777
+          alias: Humerus
+          Type: Term
+        domain: ImagingServices
+      - name: BrokenLeg
+        description: The leg is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+            - josh.king@prominenceadvisors.com
+        custom_properties:
+          EpicID: 88888
+          alias: Femur
+          Type: Metric
+        domain: ImagingServices
+      - name: BrokenHand
+        description: The hand is broken
+        owners:
+          users:
+            - Alison.Knight@prominenceadvisors.com
+            - josh.king@prominenceadvisors.com
+        custom_properties:
+          EpicID: 88899
+          alias: Metacarpals
+          Type: Term
+        domain: ImagingServices
+ 
+      

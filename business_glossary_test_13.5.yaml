@@ -10,8 +10,8 @@ nodes:
     terms:
       - name: RXID
         description: |
-        Epic ID - 12345
-        Alias -  Drug ID
+         Epic ID - 12345
+         Alias -  Drug ID
         
         
     

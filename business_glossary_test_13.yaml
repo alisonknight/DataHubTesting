@@ -10,13 +10,9 @@ nodes:
     terms:
       - name: RX ID
         description: 
-        This is an ID for all prescriptions
+        This is an ID for all **prescriptions**
         
-        **Alias** Drug ID
-
-        A **type:** metric
-
-        - *Epic_ID* 11111
+    
 
        
        

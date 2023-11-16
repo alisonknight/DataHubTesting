@@ -1,0 +1,22 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - Alison.Knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: Pharmacy
+    description: A set of terms related to Pharmacy
+    terms:
+      - name: RX ID
+        description: 
+        This is an ID for all prescriptions
+        
+        **Alias** Drug ID
+
+        A **type:** metric
+
+        - *Epic_ID* 11111
+
+       
+       

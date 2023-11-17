@@ -1,0 +1,35 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - Alison.Knight@prominenceadvisors.com
+url: "https://github.com/datahub-project/datahub/"
+nodes:
+  - name: Pharmacy
+    description: A set of terms related to Pharmacy
+    terms:
+      - name: RXID
+        description: |
+         **Epic ID**: 12345
+         **Alias**: Drug ID
+         **Type**: Term
+
+         **Description**:
+         This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.
+  nodes: 
+  - name: Inpatient Pharmacy Services
+    description: This subdomain includes the staffing, workflows, and prescriptions that occur within the hospital inpatient environment.
+    terms:
+    - name: IV Medication
+        description: |
+         **Alias**: IV Infusion
+         **Type**: Term
+        
+
+         **Description**:
+         This medication is given through an IV.
+
+    
+
+       
+       

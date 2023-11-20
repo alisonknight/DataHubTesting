@@ -1,0 +1,22 @@
+version: 1
+source: DataHub
+nodes:
+  - name: Pharmacy
+    description: A set of terms related to Pharmacy
+    terms:
+      - name: RXID
+        owners:
+          users:
+            - Alison Knight
+        description: |
+         **Epic ID**: 12345
+         **Alias**: Drug ID
+         **Type**: Term
+
+         **Description**:
+         This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.This is an ID for all prescriptions and is an unique identifier.
+        
+    
+
+       
+       

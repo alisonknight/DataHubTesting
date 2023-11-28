@@ -1,0 +1,24 @@
+version: 1
+owners:
+  users:
+    - alison.knight@prominenceadvisors.com
+nodes:
+  - name: Inpatient
+    description: This folder includes all the assets related to Inpatient services.
+    terms:
+    # Below list is all the terms you want to add or edit within this folder
+      - name: Census
+        description: | #Insert description below using the fields specified
+          **Alias**: Midnight Census
+          **Type**: Metric
+          **Epic ID**: N/A
+         
+      
+          **Description**:This term includes the total count of inpatients in the hospital at a given time.
+          **Business Logic**: N/A
+        
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Inpatient
+     

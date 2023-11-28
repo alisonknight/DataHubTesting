@@ -1,0 +1,104 @@
+version: 1
+owners:
+  users:
+    - alison.knight@prominenceadvisors.com
+nodes:
+  - name: Inpatient
+    description: This folder includes all the assets related to Inpatient services.
+    terms:
+    # Below list is all the terms you want to add or edit within this folder
+      - name: Census
+        description: | #Insert description below using the fields specified
+          **Alias**: Midnight Census
+          **Type**: Metric
+          **Epic ID**: N/A
+         
+      
+          **Description**:This term includes the total count of inpatients in the hospital at a given time.
+
+          **Business Logic**: N/A
+        
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Inpatient
+      - name: Nursing Unit
+        description: | #Insert description below using the fields specified
+         **Alias**: Floor, Ward, Unit
+         **Type**: Term
+         **Epic ID**: N/A
+         
+      
+         **Description**: A nursing unit is a collection of rooms and/or beds that is staffed by a team of nurses. A nursing unit usually has a dedicated specialty or purpose. For example, it could be a cardiovascular surgery unit or a stroke unit. 
+         
+         **Business Logic**: N/A
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Inpatient
+  - name: Ambulatory
+    description: This folder contains all assets relates to Ambulatory Services.
+    nodes: 
+    - name: Ambulatory Quality
+      description: This folder contains all the terms related to quality
+      terms:
+      - name: ^Primary Care Quality Metrics Dashboard 
+        description: | #Insert the information on the dashboard
+         **Dashboard Use**: This PowerBI dashboard contains metrics for managers of primary care practices to monitor their quality. 
+         
+         **Dashboard Population**: This dashboard contains quality metrics for multiple populations including pediatrics, adults, adult patients with diabetes, and adult patients with hypertension.
+         
+         **Dashboard Image**: 
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Ambulatory
+      - name: Adult Body Mass Index Percentage
+        description: | #Insert description below using the fields specified
+         **Alias**: BMI
+         **Type**: Metric
+         **Epic ID**: N/A
+         
+         **Description**:
+         This metric measures the percent of adults that had a body mass index (BMI) documented on their chart during the specified time period.  Tracking BMI for adults is important in understanding overall health.
+         
+         **Business Logic**: 
+         Number of adults with BMI documented / Total number of adults with a physical 
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Ambulatory
+    terms:
+    # Below list is all the terms you want to add or edit within this folder
+      - name: Appointment Arrival Time
+        description: | #Insert description below using the fields specified
+         **Alias**: Checkin Time
+         **Type**: Metric
+         **Epic ID**: N/A
+         
+         **Description**:
+         This term is the time the patient arrives for an appointment in an outpatient (ambulatory) clinic.  This term is used to calculate metric regarding wait time and appointment duration.
+         
+         **Business Logic**: 
+         Number of adults with BMI documented / Total number of adults with a physical 
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Ambulatory
+      - name: Time to Third Available Appt
+        description: | #Insert description below using the fields specified
+         **Alias**: Third Available
+         **Type**: Metric
+         **Epic ID**: N/A
+         
+         **Description**:
+         This metric measures the number of days until there are three appointment slots available for a given appointment type with a given provider type. This metric is used to determine current appointment availability.
+         
+         **Business Logic**: N/A
+        owners:
+          users:
+            - alison.knight@prominenceadvisors.com
+        domain: Ambulatory  
+            
+ 
+      

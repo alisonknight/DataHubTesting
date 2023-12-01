@@ -1,0 +1,34 @@
+version: 1
+owners:
+  users:
+    - alison.knight@prominenceadvisors.com
+nodes:
+  - name: Epic KPI Test #Need to still confirm folder name
+    description: This is a test for our sample template for Epic KPIs
+    terms:
+    # Below list is all the terms you want to add or edit within this folder
+      - name: Epic KPI Test 1
+        description: | #Insert description below using the fields specified, if not applicable put N/A
+          **Alias**: Epic
+          **Type**: Metric
+          **Epic ID**: IDN 456789
+         
+      
+          **Description**: This is descirption for Epic KPI Test 1.
+
+          **Business Logic**: N/A
+        
+        domain: Epic KPI Test #Need to confirm Domain Name
+      - name: Epic KPI Test 2
+        description: | #Insert description below using the fields specified, if not applicable put N/A
+          **Alias**: KPI
+          **Type**: Metric
+          **Epic ID**: IDN 123456
+         
+      
+          **Description**: This is a description of Epic KPI Test 2
+
+          **Business Logic**: N/A
+        
+        domain: Epic KPI Test #Need to confirm Domain Name
+  

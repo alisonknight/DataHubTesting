@@ -1,0 +1,22 @@
+version: 1
+owners:
+  users:
+    - glossarysuperuser.person@test.com
+nodes:
+  - name: Maine Health Accountable Care Organization
+    description: This includes all the assets related to the Maine Health Accountable Care Organization (MHACO)
+    terms:
+    # Below list is all the terms you want to add or edit within this folder
+      - name: Test Import
+        description: | #Insert description below using the fields specified, if not applicable put N/A
+          **Alias**: 
+          **Type**: Metric
+          **Epic ID**: N/A
+         
+      
+          **Description**: This is to ensure that we don't get duplicate folders on import.
+          
+          **Business Logic**: N/A
+        
+        domain: Maine Health Accountable Care Organization
+      

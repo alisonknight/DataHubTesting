@@ -1,0 +1,36 @@
+version: 1 
+owners: 
+  users: 
+    - alison.knight@prominenceadvisors.com
+nodes:
+  - name: Inpatient Clinical
+    id: "urn:li:glossaryNode:f4d40354a06a1f127091b9e03c58e9fd"
+    description: This folder includes all the assets related to Inpatient services.
+    terms:
+      - name: IP Test Coded Risk Adjustment Factor Average Test
+        description: | 
+          **Alias**: Coded RAF
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric represents the average Risk Adjustment Factor (RAF) for the population of interest.  This metric aids in understanding the medical complexity of the patients within the population.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+  - name: Human Resources
+    id: "urn:li:glossaryNode:4eb7c35c-a7af-477d-bdc0-b86d9260a940"
+    description: This folder includes all the assets related to Inpatient services.
+    terms:
+      - name: HR Test Coded Risk Adjustment Factor Average Test
+        description: | 
+          **Alias**: Coded RAF
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric represents the average Risk Adjustment Factor (RAF) for the population of interest.  This metric aids in understanding the medical complexity of the patients within the population.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      

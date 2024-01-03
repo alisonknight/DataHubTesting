@@ -1,0 +1,99 @@
+version: 1 
+owners: 
+  users: 
+    - alison.knight@prominenceadvisors.com
+nodes:
+  - name: Inpatient Clinical
+    description: This folder includes all the assets related to Inpatient services.
+    terms:
+      - name: Test Coded Risk Adjustment Factor Average Test
+        description: | 
+          **Alias**: Coded RAF
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric represents the average Risk Adjustment Factor (RAF) for the population of interest.  This metric aids in understanding the medical complexity of the patients within the population.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      - name: Test Coded Risk Adjustment Factor
+        description: | 
+          **Alias**: RAF, Risk Adjustment
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: Risk Adjustment Factor (RAF) represents an individual's medical complexity, or acuity, in the form of financial risk.  It is important that providers and payers have a clear understanding of the complexities of the population as a criticalmeasure to evaluate performance, set benchmarks, bid rates, etc. Risk Adjustment models can vary widely and be used in many different contexts including financial models, quality models, and accountable care organizations.  For MHACO, we use the Risk Adjustment models provided by ARCADIA, specifically the CMS-HCC v24 model which includes the medicare population.  The risk data includes demographic risk scores, current and historical claims and encounters.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      - name: Test Per Member Per Month Medical Cost
+        description: | 
+          **Alias**: Med PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric (Med PMPM) represents the monthly cost per member medical expenses which includes outpatient and inpatient expenses.  This metric provides a standardized way to compare medical cost across different populations and also helpful in separating the costs out from retail pharmacy costs. This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      - name: Test Per Member Per Month Cost
+        description: | 
+          **Alias**: PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Per Member Per Month metrics are calculated by dividing the total healthcare expenses incurred during a specific period by the total number of member months during that same period. This metric provides a standardized way to compare costs across different populations and allows for better financial planning and budgeting.This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: PMPM = Total claims expense / total member months
+        domain: Maine Health Accountable Care Organization
+  - name: Human Resources
+    description: This folder includes all the assets related to Inpatient services.
+    terms:
+      - name: Test Coded Risk Adjustment Factor Average Test
+        description: | 
+          **Alias**: Coded RAF
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric represents the average Risk Adjustment Factor (RAF) for the population of interest.  This metric aids in understanding the medical complexity of the patients within the population.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      - name: Test Coded Risk Adjustment Factor
+        description: | 
+          **Alias**: RAF, Risk Adjustment
+          **Type**: Term
+          **Epic ID**: N/A
+
+
+          **Description**: Risk Adjustment Factor (RAF) represents an individual's medical complexity, or acuity, in the form of financial risk.  It is important that providers and payers have a clear understanding of the complexities of the population as a criticalmeasure to evaluate performance, set benchmarks, bid rates, etc. Risk Adjustment models can vary widely and be used in many different contexts including financial models, quality models, and accountable care organizations.  For MHACO, we use the Risk Adjustment models provided by ARCADIA, specifically the CMS-HCC v24 model which includes the medicare population.  The risk data includes demographic risk scores, current and historical claims and encounters.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      - name: Test Per Member Per Month Medical Cost
+        description: | 
+          **Alias**: Med PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: This metric (Med PMPM) represents the monthly cost per member medical expenses which includes outpatient and inpatient expenses.  This metric provides a standardized way to compare medical cost across different populations and also helpful in separating the costs out from retail pharmacy costs. This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: N/A
+        domain: Maine Health Accountable Care Organization
+      - name: Test Per Member Per Month Cost
+        description: | 
+          **Alias**: PMPM
+          **Type**: Metric
+          **Epic ID**: N/A
+
+
+          **Description**: Per Member Per Month metrics are calculated by dividing the total healthcare expenses incurred during a specific period by the total number of member months during that same period. This metric provides a standardized way to compare costs across different populations and allows for better financial planning and budgeting.This metric can be shown as a total cost or calculated as an average to show trends over time.
+
+          **Business Logic**: PMPM = Total claims expense / total member months
+        domain: Maine Health Accountable Care Organization

@@ -1,0 +1,4 @@
+resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD)",field_foo,,,,,Test that an import works for column description,
+"urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD)",field_bar,,,,,Test 2 that another import works,
+"urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD)",,,,,,Test that we can describe the dataset,

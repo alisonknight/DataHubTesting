@@ -1,0 +1,4 @@
+﻿resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD)",,,,,,Import description on Jan 19 for dataset,
+"urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD)",field_foo,,,,,Import description on Jan 19 for field_foo,
+"urn:li:dataset:(urn:li:dataPlatform:hive,SampleHiveDataset,PROD)",field_bar,,,,,Import description on Jan 19 for field_bar,

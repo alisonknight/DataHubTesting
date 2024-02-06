@@ -1,0 +1,4 @@
+﻿resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)",shipment_info,,,,,Updated description for shipment info column Feb 6th,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)",new_column,,,,,This column does not exist on the original hdfs table.,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset3,PROD)",new_column3,,,,,This column does not exist on the created hdfs3 table.,

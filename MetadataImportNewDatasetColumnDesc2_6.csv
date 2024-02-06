@@ -1,0 +1,4 @@
+﻿resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)",,,,[urn:li:corpuser:datahub|urn:li:corpuser:jdoe],,This is a test of the Feb 6th import for HDFS.,
+"urn:li:dataset:(urn:li:dataPlatform:kafka,SampleKafkaDataset,PROD)",,,,[urn:li:corpuser:datahub|urn:li:corpuser:jdoe],,This is a test of the Feb 6th import for Kafka.,
+"urn:li:dataset:(urn:li:dataPlatform:s3,project/root/events/logging_events_bckp,PROD)",browser,,,[urn:li:corpuser:datahub|urn:li:corpuser:jdoe],,This is a test of the Feb 6th import for AWS Column,

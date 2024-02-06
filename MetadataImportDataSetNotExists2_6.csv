@@ -1,0 +1,3 @@
+﻿resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)",,,,,,Updated description for HDFS 3rd Import on Feb 6,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset2,PROD)",,,,,,This dataset does not exist.,

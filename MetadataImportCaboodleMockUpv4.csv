@@ -1,0 +1,6 @@
+﻿resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)",,,,,,Updated description for HDFS 3rd Import on Feb 6,
+"urn:li:dataset:(urn:li:dataPlatform:Caboodle,BirthFact,PROD)",,,,,,The birth fact contains information about births. Each row represents the birth of a newborn.,
+"urn:li:dataset:(urn:li:dataPlatform:Clarity,OB_HSB_DELIVERY,PROD)",,,,,,"The table contains information on all aspects of the delivery including time events, clinical measurements of baby and mother.",
+"urn:li:dataset:(urn:li:dataPlatform:Clarity,ZC_DELIVERY_TYPE,PROD)",,,,,,The table contains information on patient and type of delivery.,
+"urn:li:dashboard:(urn:li:dataPlatform:PowerBI,LaborAndDelivery_Dashboard,PROD)",,,,,,The dashboard contains metrics related to the Labor and Delivery unit for the hospital.,

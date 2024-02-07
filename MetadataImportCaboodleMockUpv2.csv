@@ -1,0 +1,12 @@
+﻿resource,subresource,glossary_terms,tags,owners,ownership_type,description,domain
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)",,,,,,Updated description for HDFS 3rd Import on Feb 6,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,BirthFact,PROD)",,,,,,The birth fact contains information about births. Each row represents the birth of a newborn.,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,BirthFact,PROD)",BirthKey,,,,,Surrogate key used to uniquely identify the record,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,BirthFact,PROD)",MotherPatientKey,,,,,Patient that gave birth,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,BirthFact,PROD)",MotherPatientDurableKey,,,,,Patient that gave birth,
+"urn:li:dataset:(urn:li:dataPlatform:hdfs,BirthFact,PROD)",BabyPatientKey,,,,,Patient that was born,
+"urn:li:dataset:(urn:li:dataPlatform:Caboodle,BirthFact,PROD)",,,,,,The birth fact contains information about births. Each row represents the birth of a newborn.,
+"urn:li:dataset:(urn:li:dataPlatform:Caboodle,BirthFact,PROD)",BirthKey,,,,,Surrogate key used to uniquely identify the record,
+"urn:li:dataset:(urn:li:dataPlatform:Caboodle,BirthFact,PROD)",MotherPatientKey,,,,,Patient that gave birth,
+"urn:li:dataset:(urn:li:dataPlatform:Caboodle,BirthFact,PROD)",MotherPatientDurableKey,,,,,Patient that gave birth,
+"urn:li:dataset:(urn:li:dataPlatform:Caboodle,BirthFact,PROD)",BabyPatientKey,,,,,Patient that was born,

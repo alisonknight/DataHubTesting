@@ -1,0 +1,21 @@
+---
+version: 1
+lineage:
+  - entity:
+      name: BirthFact
+      type: dataset
+      env: PROD
+      platform: Caboodle
+    upstream:
+      - entity:
+          name: ZC_DELIVERY_TYPE
+          env: PROD
+          platform: Clarity
+          platform_instance: test
+          type: dataset
+      - entity:
+          name: OB_HSB_DELIVERY
+          env: PROD
+          platform: Clarity
+          platform_instance: test
+          type: dataset

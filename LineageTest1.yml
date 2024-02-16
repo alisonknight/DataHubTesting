@@ -11,11 +11,9 @@ lineage:
           name: ZC_DELIVERY_TYPE
           env: PROD
           platform: Clarity
-          platform_instance: test
           type: dataset
       - entity:
           name: OB_HSB_DELIVERY
           env: PROD
           platform: Clarity
-          platform_instance: test
           type: dataset
